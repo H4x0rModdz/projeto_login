@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+nav {
+    height: 15px;
+    width: 45px;
+    background-color: #999999;
+}
+footer {
+    height: 15px;
+    width: 117px;
+    background-color: #cccccc;
+}

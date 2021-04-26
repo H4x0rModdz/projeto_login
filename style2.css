@@ -1,0 +1,54 @@
+.login-page {
+    width: 258px;
+    height: 120px;
+    position: absolute;
+
+    left: 680px;
+    top: 300px;
+    text-align: center;
+    background-color: transparent;
+}
+body {
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    cursor: url(cursor.cur), default;
+}
+audio {
+    position: absolute;
+    left: 650px;
+    top: 405px;
+}
+.bg_video{ /* Background Video */
+	position: fixed; 
+	right: 1; 
+	bottom: 0;
+	min-width: 10%; 
+	min-height: 10%;
+	width: 15px; 
+	height: 15px; 
+	z-index: -1000;
+	background: url(images/torre.jpg) no-repeat;
+	background-size: cover; 
+}
+h1 {
+    text-shadow: 2px 2px #ff0000;
+    color: rgb(109, 104, 104);
+}
+input[type=button] {
+    color: rgb(0, 0, 0);
+    cursor: url(cursor.cur), default;
+    border-radius: 10px;
+}
+input[type=submit] {
+    color: rgb(0, 0, 0);
+    cursor: url(cursor.cur), default;
+    border-radius: 10px;
+}
+input[type=text] {
+    border-radius: 10px;
+}
+input[type=password] {
+    border-radius: 10px;
+}
